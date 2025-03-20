@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const topsellingSchema = require("../../models/Kande/Topselling");
+const topsellingSchema = require("../../models/kande/Topselling");
 
 router.route("/add").post((req, res) => {
     const { dealername,noofsales } = req.body;

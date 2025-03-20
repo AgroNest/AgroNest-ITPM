@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
-const Admin = require('../../models/Rahul/Admin');
+const Admin = require('../../models/thamuditha/Admin');
 
 // POST route to add new admin
 router.post('/', async (req, res) => {

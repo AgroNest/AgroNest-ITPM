@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const TopAreas = require("../../models/Kande/TopAreas.js");
+const TopAreas = require("../../models/kande/TopAreas.js");
 
 router.use(express.json()); // Middleware to parse JSON data
 

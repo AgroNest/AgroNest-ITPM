@@ -1,5 +1,5 @@
 const express = require("express");
-const User = require("../../models/Kande/managerlogin.js");
+const User = require("../../models/kande/managerlogin.js");
 const router = express.Router();
 
 router.post("/signup", async (req, res) => {

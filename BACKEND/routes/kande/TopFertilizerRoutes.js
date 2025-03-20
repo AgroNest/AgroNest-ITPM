@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const TopFertlizer = require("../../models/Kande/TopFertilizer");
+const TopFertlizer = require("../../models/kande/TopFertilizer");
 
 router.route("/add").post((req, res) => {
     const { fertilizername,noofsales} = req.body;
