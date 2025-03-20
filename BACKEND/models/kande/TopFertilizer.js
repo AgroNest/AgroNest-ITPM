@@ -3,19 +3,19 @@ const Schema=mongoose.Schema;
 
 const fertilizerSchema=new Schema({
   fertilizername:{
-    type:String,  //data type
-    required:true, //validate
+    type:String,  
+    required:true, 
   },
 
   noofsales:{
-    type:Number, //data type
-    required:true, //validate
+    type:Number, 
+    required:true, 
   }
 
 
 });
 
 module.exports = mongoose.model(
-    "FertilizerAnalysis", //file name
-    fertilizerSchema //function schema
+    "FertilizerAnalysis", 
+    fertilizerSchema 
 )

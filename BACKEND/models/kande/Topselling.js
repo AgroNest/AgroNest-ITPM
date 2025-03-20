@@ -3,19 +3,19 @@ const Schema=mongoose.Schema;
 
 const topsellingSchema=new Schema({
   dealername:{
-    type:String,  //data type
-    required:true, //validate
+    type:String,  
+    required:true, 
   },
 
   noofsales:{
-    type:Number, //data type
-    required:true, //validate
+    type:Number, 
+    required:true, 
   }
 
 
 });
 
 module.exports = mongoose.model(
-    "TopSelling", //file name
-    topsellingSchema //function schema
+    "TopSelling", 
+    topsellingSchema 
 )

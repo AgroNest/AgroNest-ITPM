@@ -4,19 +4,19 @@ const Schema=mongoose.Schema;
 const topareasSchema=new Schema({
  
   area:{
-    type:String,  //data type
-     required:true, //validate
+    type:String,  
+     required:true, 
   },
 
   noofRegistrations:{
-    type:Number, //data type
-     required:true, //validate
+    type:Number, 
+     required:true,
   }
 
 
 });
 
 module.exports = mongoose.model(
-    "TopAreas", //file name
-    topareasSchema //function schema
+    "TopAreas", 
+    topareasSchema 
 )
