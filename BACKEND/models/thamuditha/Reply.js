@@ -1,11 +1,9 @@
-// models/Reply.js
-
 const mongoose = require('mongoose');
 
 const replySchema = new mongoose.Schema({
   dealerId: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'FarmerReport', // Assuming your original model is named FarmerReport
+    ref: 'FarmerReport',
     required: true,
   },
   replyText: {
