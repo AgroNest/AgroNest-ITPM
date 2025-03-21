@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 let Dealer = require('../../models/udana/dealer');
 let Fertilizer = require('../../models/udana/fertilizer');
