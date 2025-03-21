@@ -1,5 +1,5 @@
 const router = require("express").Router();
-let Farmer = require("../../models/Thisaravi/Farmer");
+let Farmer = require("../../models/vinuka/Farmer");
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 

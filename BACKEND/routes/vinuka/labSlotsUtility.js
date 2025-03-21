@@ -1,5 +1,5 @@
 const router = require('express').Router();
-let LabSlot = require("../../../models/Oshini/lab_account/labSlot");
+let LabSlot = require("../../models/vinuka/labSlot");
 
 
 const addTimeSlots = async (date, labId) => {

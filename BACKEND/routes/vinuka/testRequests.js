@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const TestRequest = require('../../../models/Oshini/test_requests/testRequest');
+const TestRequest = require('../../models/vinuka/testRequest');
 
 // Route for adding test requests
 router.post('/addTestRequest', async (req, res) => {

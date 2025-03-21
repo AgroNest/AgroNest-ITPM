@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const multer = require('multer');
-const LabReport = require('../../../models/Oshini/test_requests/labReport');
-const TestRequest = require('../../../models/Oshini/test_requests/testRequest');
+const LabReport = require('../../models/vinuka/labReport');
+const TestRequest = require('../../models/vinuka/testRequest');
 router.use("/uploads", express.static("uploads"))
 
 const storage = multer.diskStorage({

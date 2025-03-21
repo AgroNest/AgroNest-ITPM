@@ -1,5 +1,5 @@
 const router = require('express').Router();
-let Lab = require("../../../models/Oshini/lab_account/labAccount");
+let Lab = require("../../models/vinuka/labAccount");
 
 //add new lab acount
 router.route("/add").post((req,res)=>{

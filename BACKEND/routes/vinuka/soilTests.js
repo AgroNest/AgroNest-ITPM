@@ -1,6 +1,6 @@
 const router=require("express").Router();
-const SoilTest = require("../../models/Thisaravi/SoilTest");
-const Laboratory = require("../../models/Oshini/lab_account/labAccount");
+const SoilTest = require("../../models/vinuka/SoilTest");
+const Laboratory = require("../../models/vinuka/labAccount");
 
 //add
 router.post("/add", async (req, res) => {
