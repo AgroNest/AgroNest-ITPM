@@ -1,10 +1,8 @@
-
 const express = require('express');
 const router = express.Router();
-const Dealer = require('../../models/Sudarshan/dealer_acc_mgmt/dealer'); 
-const Farmer = require('../../models/Thisaravi/Farmer');
+const Dealer = require('../../models/udana/dealer'); 
+const Farmer = require('../../models/vinuka/Farmer');
 
-// count of dealers
 router.get('/countDealer', async (req, res) => {
   try {
     const count = await Dealer.countDocuments();
@@ -16,7 +14,6 @@ router.get('/countDealer', async (req, res) => {
 });
 
 module.exports = router;
-
 
 router.get('/countFarmer', async (req, res) => {
     try {

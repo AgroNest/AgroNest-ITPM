@@ -1,14 +1,10 @@
-
-const Admin = require('../../models/Rahul/Admin');
+const Admin = require('../../models/thamuditha/Admin');
 const bcrypt = require('bcrypt');
-// routes/adminProfile.js
-
 const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
 
 
-// Middleware 
 const verifyToken = (req, res, next) => {
   const token = req.headers.authorization;
   if (!token) {
@@ -24,7 +20,6 @@ const verifyToken = (req, res, next) => {
   });
 };
 
-// Get admin profile data
 router.get('/profile', verifyToken, async (req, res) => {
   try {
     const admin = await Admin.findById(req.adminId);

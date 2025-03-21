@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const FarmerReport = require("../../models/Veenath/farmerReport"); // Assuming the FarmerReport model path is correct
-const Reply = require("../../models/Rahul/ReplyFarmer");
+const FarmerReport = require("../../models/thamuditha/farmerReport");
+const Reply = require("../../models/thamuditha/ReplyFarmer");t
 
-// Fetch farmers
+
 router.get("/farmers", async (req, res) => {
   try {
     const farmers = await FarmerReport.find({ category: "Farmer" });
@@ -13,7 +13,6 @@ router.get("/farmers", async (req, res) => {
   }
 });
 
-// Fetch reply associated with a farmer
 router.get("/farmers/:id/reply", async (req, res) => {
   try {
     const farmerId = req.params.id;
@@ -29,13 +28,11 @@ router.post("/farmers/:id/reply", async (req, res) => {
     const farmerId = req.params.id;
     const { replyText } = req.body;
 
-    // Create a new Reply document
     const reply = new Reply({
       farmerId,
       replyText,
     });
 
-    // Save the reply to the database
     await reply.save();
 
     res.status(201).json(reply);
@@ -44,8 +41,6 @@ router.post("/farmers/:id/reply", async (req, res) => {
   }
 });
 
-// Update status of a farmer
-// Modify this route according to your requirements
 
 router.put('/farmers/:id/status', async (req, res) => {
   try {
@@ -53,7 +48,7 @@ router.put('/farmers/:id/status', async (req, res) => {
     const updatedFarmer = await FarmerReport.findByIdAndUpdate(
       id,
       { status: 'Resolved' },
-      { new: true } // To return the updated farmer object
+      { new: true } 
     );
     res.json(updatedFarmer);
   } catch (error) {

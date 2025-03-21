@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Farmer = require('../../models/Thisaravi/Farmer');
+const Farmer = require('../../models/vinuka/Farmer');
 
 router.get('/viewfarmers', async (req, res) => {
   try {

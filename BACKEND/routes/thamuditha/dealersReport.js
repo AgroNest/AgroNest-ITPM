@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const FarmerReport = require("../../models/Veenath/farmerReport");
-const Reply = require("../../models/Rahul/Reply");
+const FarmerReport = require("../../models/thamuditha/farmerReport");
+const Reply = require("../../models/thamuditha/Reply");
 
-// Fetch dealers
+
 router.get("/dealers", async (req, res) => {
   try {
     const dealers = await FarmerReport.find({ category: "Dealer"});
@@ -13,7 +13,6 @@ router.get("/dealers", async (req, res) => {
   }
 });
 
-// Fetch reply 
 router.get("/dealers/:id/reply", async (req, res) => {
   try {
     const dealerId = req.params.id;
@@ -24,7 +23,6 @@ router.get("/dealers/:id/reply", async (req, res) => {
   }
 });
 
-// reply to  dealer
 router.post("/dealers/:id/reply", async (req, res) => {
   try {
     const dealerId = req.params.id;
@@ -36,7 +34,7 @@ router.post("/dealers/:id/reply", async (req, res) => {
       replyText,
     });
 
-    // Save reply 
+ 
     await reply.save();
 
     res.status(201).json(reply);
@@ -45,13 +43,12 @@ router.post("/dealers/:id/reply", async (req, res) => {
   }
 });
 
-// Update  reply
+
 router.put('/replies/:replyId', async (req, res) => {
   try {
     const { replyId } = req.params;
     const { replyText } = req.body;
 
-    //  update its replyText
     const updatedReply = await Reply.findByIdAndUpdate(
       replyId,
       { replyText },
@@ -63,7 +60,6 @@ router.put('/replies/:replyId', async (req, res) => {
   }
 });
 
-// Update dealer status
 router.put('/dealers/:id/status', async (req, res) => {
   try {
     const { id } = req.params;
@@ -78,7 +74,6 @@ router.put('/dealers/:id/status', async (req, res) => {
   }
 });
 
-// Fetch all replies 
 router.get('/replies/:dealerId', async (req, res) => {
   try {
     const { dealerId } = req.params;
@@ -89,7 +84,6 @@ router.get('/replies/:dealerId', async (req, res) => {
   }
 });
 
-// Delete a reply
 router.delete('/replies/:replyId', async (req, res) => {
   try {
     const { replyId } = req.params;

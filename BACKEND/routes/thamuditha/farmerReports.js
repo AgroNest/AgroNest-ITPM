@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const FarmerReport = require("../../models/Veenath/farmerReport");
+const FarmerReport = require("../../models/thamuditha/farmerReport");
 
 
 router.post("/", async (req, res) => {
@@ -79,7 +79,6 @@ router.delete("/:id", async (req, res) => {
     res.status(500).json({ error: "Server error" });
   }
 });
-
 
 
 module.exports = router;

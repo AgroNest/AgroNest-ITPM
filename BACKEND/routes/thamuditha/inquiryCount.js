@@ -1,9 +1,8 @@
 const express = require('express');
-const FarmerReport = require('../../models/Veenath/farmerReport'); 
-
+const FarmerReport = require('../../models/thamuditha/farmerReport'); 
 const router = express.Router();
 
-// select  "Pending" farmers
+
 router.get('/countPendingFarmerReports', async (req, res) => {
   try {
     const count = await FarmerReport.countDocuments({ status: 'Pending' });

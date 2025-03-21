@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const FarmerFeedback = require("../../models/Veenath/farmerfeedback");
+const FarmerFeedback = require("../../models/thamuditha/farmerfeedback");
 
 
 router.post("/", async (req, res) => {

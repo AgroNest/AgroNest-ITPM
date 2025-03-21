@@ -1,18 +1,17 @@
 const express = require('express');
 const router = express.Router();
-const Dealer = require('../../models/Sudarshan/dealer_acc_mgmt/dealer'); // File path corrected
+const Dealer = require('../../models/udana/dealer'); 
 
-// Get all dealers
 router.get('/viewdealers', async (req, res) => {
   try {
-    const dealers = await Dealer.find(); // Model name remains 'Dealer'
+    const dealers = await Dealer.find(); 
     res.json(dealers);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
 });
 
-// delete ID
+
 router.delete('/viewdealers/delete/:id', async (req, res) => {
   try {
     const { id } = req.params;

@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Lab = require('../../models/Oshini/lab_account/labAccount');
+const Lab = require('../../models/vinuka/labAccount');
 
-// Get lab list 
 router.get('/', async (req, res) => {
   try {
     const labs = await Lab.find({}, { }); 
