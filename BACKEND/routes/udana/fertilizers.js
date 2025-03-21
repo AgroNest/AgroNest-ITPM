@@ -1,5 +1,5 @@
 const router = require('express').Router();
-let Fertilizer = require('../../../models/Sudarshan/inventory_mgmt/fertilizer');
+let Fertilizer = require('../../models/udana/fertilizer');
 
 router.route('/addFertilizer').post((req, res) => {
     const name = req.body.name;

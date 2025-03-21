@@ -1,8 +1,8 @@
 const router = require('express').Router();
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-let Dealer = require('../../../models/Sudarshan/dealer_acc_mgmt/dealer');
-let Fertilizer = require('../../../models/Sudarshan/inventory_mgmt/fertilizer');
+let Dealer = require('../../models/udana/dealer');
+let Fertilizer = require('../../models/udana/fertilizer');
 
 router.post('/registerDealer', async (req, res) => {
     try {
