@@ -12,8 +12,8 @@ import { DialogActions,Grid } from '@mui/material';
 import LabPDFGenerator from './LabPDFGenerator'; 
 import AllLabsPDFGenerator from './AllLabsPDFGenerator'; 
 
-import labBackground from '../../images/Rahul/but2.jpg'; 
-import buttonBackground from '../../images/Rahul/but2.jpg';
+import labBackground from '../../images/thamuditha/but2.jpg'; 
+import buttonBackground from '../../images/thamuditha/but2.jpg';
 import Sidebar from './Sidebar';
 const LabCards = () => {
   const [labs, setLabs] = useState([]);

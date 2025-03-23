@@ -3,7 +3,7 @@ import { Button } from '@mui/material';
 import { jsPDF } from 'jspdf';
 
 
-import companyLogo from '../../images/Rahul/pdf3.jpg'; 
+import companyLogo from '../../images/thamuditha/pdf3.jpg'; 
 
 const LabPDFGenerator = ({ lab }) => {
   const handleExportPDF = () => {

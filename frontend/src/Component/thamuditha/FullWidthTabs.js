@@ -11,7 +11,7 @@ import Grid from '@mui/material/Grid';
 import Sidebar from './Sidebar';
 
 // import AdminHome from '../../pages/AdminHome';
-import DealerListComponent from '../Rahul/DealerListComponent';
+import DealerListComponent from '../thamuditha/DealerListComponent';
 import FarmerListComponent from './FarmerListComponent';
 
 function TabPanel(props) {

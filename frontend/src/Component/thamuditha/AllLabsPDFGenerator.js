@@ -4,7 +4,7 @@ import jsPDF from 'jspdf';
 import 'jspdf-autotable'; 
 
 
-import companyLogo from '../../images/Rahul/pdf3.jpg'; 
+import companyLogo from '../../images/thamuditha/pdf3.jpg'; 
 
 const AllLabsPDFGenerator = ({ labs }) => {
   const handleExportPDF = () => {
