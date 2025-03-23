@@ -12,7 +12,7 @@ import FeedbackIcon from '@mui/icons-material/Feedback';
 import ForumIcon from '@mui/icons-material/Forum';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { Link } from 'react-router-dom';
-import SoilTestRequest from '../../pages/Thisaravi/SoilTest/SoilTestRequest';
+import SoilTestRequest from '../../pages/vinuka/SoilTest/SoilTestRequest';
 import { useParams } from 'react-router-dom';
 
 const drawerWidth = 240;

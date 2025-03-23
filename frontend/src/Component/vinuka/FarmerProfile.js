@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Typography, Grid, Button, Link } from '@mui/material';
-import Sidebar from '../../Component/Thisaravi/Sidebar';
+import Sidebar from '../../Component/vinuka/Sidebar';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 
