@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Card, Space, Statistic, Typography } from "antd";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import dashBackground from "../../images/Rahul/h1.jpeg"
+import dashBackground from "../../images/thamuditha/h1.jpeg"
 
 function Dashboard() {
   const [adminName, setAdminName] = useState('');

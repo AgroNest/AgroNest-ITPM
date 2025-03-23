@@ -3,7 +3,7 @@ import { Container, Typography, Grid, Card, CardContent, Rating, CardActions, Bu
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
-import FeedbackDetailsDialog from '../../../Component/Veenath/FeedbackComp/FeedbackDetailsDialog';
+import FeedbackDetailsDialog from '../../../Component/thamuditha/FeedbackComp/FeedbackDetailsDialog';
 
 const FeedbackCardView = () => {
   const [feedbacks, setFeedbacks] = useState([]);
