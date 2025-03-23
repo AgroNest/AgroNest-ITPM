@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import FertilizerForm from "./FormCntainer/FertilizerForm";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios"; 
-import TopFertilizerInputData from "../../pages/Kande/DataInsertGraphs/TopSellerInputGraphs";
+import TopFertilizerInputData from "../../pages/kande/DataInsertGraphs/TopSellerInputGraphs";
 
 
 

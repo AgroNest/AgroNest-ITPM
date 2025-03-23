@@ -6,7 +6,7 @@ import FertilizerForm from "./FormCntainer/FertilizerForm";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import backgroundImage from '../../images/common/background.avif'; 
 import axios from "axios"; 
-import TopareasInput from "../../pages/Kande/DataInsertGraphs/TopareasInput";
+import TopareasInput from "../../pages/kande/DataInsertGraphs/TopareasInput";
 
 
 

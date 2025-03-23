@@ -3,7 +3,7 @@ import { Form, Button, Row, Col } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import FertilizerForm from "./FormCntainer/FertilizerForm";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TopFertilizerInputData from "../../pages/Kande/DataInsertGraphs/TopFertilizerInputData"
+import TopFertilizerInputData from "../../pages/kande/DataInsertGraphs/TopFertilizerInputData"
 import axios from "axios";
 
 
