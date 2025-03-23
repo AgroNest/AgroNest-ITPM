@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Sidebar from './Sidebar';
 import DeleteIcon from '@mui/icons-material/Delete';
 import UpdateIcon from '@mui/icons-material/Update';
-import '../../styles/Sudarshan/edit_profile.css';
+import '../../styles/udana/edit_profile.css';
 import { useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import VisibilityIcon from '@mui/icons-material/Visibility';

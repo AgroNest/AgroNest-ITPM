@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Sidebar from './Sidebar';
-import '../../styles/Sudarshan/dealer_profile.css';
+import '../../styles/udana/dealer_profile.css';
 import { Icon } from '@mui/material';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
