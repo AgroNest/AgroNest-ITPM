@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Container, Typography, List, ListItem, ListItemText, Divider, Button, Link } from '@mui/material';
-import CookiesBanner from '../Lasindu/Popup/OrderPopUp';
+import CookiesBanner from '../udana/Popup/OrderPopUp';
 
 const OrderHistoryPage = () => {
   const [orders, setOrders] = useState([]);

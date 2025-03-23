@@ -7,7 +7,7 @@ import '../../styles/Sudarshan/dealer_profile.css';
 import { Icon } from '@mui/material';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import DealerRating from '../../pages/Veenath/FeedbackPages/DealerRating';
+import DealerRating from '../../pages/thamuditha/FeedbackPages/DealerRating';
 
 const DealerProfile = () => {
   const [dealerData, setDealerData] = useState(null);

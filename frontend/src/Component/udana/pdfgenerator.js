@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@mui/material';
 import { jsPDF } from 'jspdf';
 import PopupMessage from '../../pages/common/PopUp';
-import companyLogo from '../../images/Rahul/pdf3.jpg'; 
+import companyLogo from '../../images/thamuditha/pdf3.jpg'; 
 
 const PDFGenerator = ({ fertilizers }) => {
     const [errorMessage, setErrorMessage] = useState('');

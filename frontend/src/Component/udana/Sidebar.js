@@ -5,7 +5,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import StoreIcon from '@mui/icons-material/Store';
 import FeedbackIcon from '@mui/icons-material/Feedback';
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
-import '../../styles/Sudarshan/sidebar.css';
+import '../../styles/udana/sidebar.css';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 

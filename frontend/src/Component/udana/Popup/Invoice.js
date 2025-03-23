@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '@mui/material';
 import { jsPDF } from 'jspdf';
 
-import companyLogo from '../../../images/Rahul/pdf3.jpg';
+import companyLogo from '../../../images/thamuditha/pdf3.jpg';
 
 const Invoice = ({ order }) => {
   const handleExportPDF = () => {
