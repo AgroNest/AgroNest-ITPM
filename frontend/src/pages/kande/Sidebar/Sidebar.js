@@ -1,6 +1,6 @@
 import React from "react";
 import "./Sidebar.css"; // Import your CSS file for styling
-import "../../../Component/Kande/FormCntainer/Form"
+import "../../../Component/kande/FormCntainer/Form"
 
 
 const Sidebar = () => {

@@ -3,7 +3,7 @@ body {
   padding: 0; /* Reset default padding */
   font-family: Arial, sans-serif; /* Set a default font-family */
   /* Add background image */
-  background-image: url('../../images/Nilupul/bgimg.jpg') !important;
+  background-image: url('../../images/kande/bgimg.jpg') !important;
   background-size: cover !important; /* Adjusts the size of the background image to cover the entire body */
   background-position: center;
   background-attachment: fixed !important; /* Centers the background image */
