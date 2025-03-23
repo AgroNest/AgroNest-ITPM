@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import Sidebar from '../../Component/Sudarshan/Sidebar';
-import '../../styles/Sudarshan/manage_shop.css';
+import Sidebar from '../../Component/udana/Sidebar';
+import '../../styles/udana/manage_shop.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import PopupMessage from '../common/PopUp';

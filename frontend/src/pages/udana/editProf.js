@@ -1,6 +1,6 @@
 import React from 'react';
-import EditProfile from '../../Component/Sudarshan/editProfile';
-import '../../styles/Sudarshan/dealer_profile.css';
+import EditProfile from '../../Component/udana/editProfile';
+import '../../styles/udana/dealer_profile.css';
 
 const DealerProfilePage = () => {
 

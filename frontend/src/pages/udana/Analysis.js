@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import Sidebar from '../../Component/Sudarshan/Sidebar';
-import '../../styles/Sudarshan/manage_shop.css';
+import Sidebar from '../../Component/udana/Sidebar';
+import '../../styles/udana/manage_shop.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Bar } from 'react-chartjs-2';
@@ -14,16 +14,16 @@ import { Typography, Table, TableHead, TableBody, TableRow, TableCell} from '@ma
 import { PDFExport } from '@progress/kendo-react-pdf';
 import { TextField,Button, List, ListItem, ListItemText } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
-import npkprime from '../../images/Sudarshan/fertilizer images/npkprime.png';
-import urea from '../../images/Sudarshan/fertilizer images/urea.png';
-import npkbalanced from '../../images/Sudarshan/fertilizer images/npkbalanced.png';
-import tsp from '../../images/Sudarshan/fertilizer images/tsp.png';
-import mop from '../../images/Sudarshan/fertilizer images/mop.png';
-import algae from '../../images/Sudarshan/fertilizer images/algae.png';
-import recovery from '../../images/Sudarshan/fertilizer images/recovery.png';
-import xfert from '../../images/Sudarshan/fertilizer images/xfert.png';
-import dolomite from '../../images/Sudarshan/fertilizer images/dolomite.png';
-import Pdfgen from '../../Component/Sudarshan/pdfgenerator'
+import npkprime from '../../images/udana/fertilizer images/npkprime.png';
+import urea from '../../images/udana/fertilizer images/urea.png';
+import npkbalanced from '../../images/udana/fertilizer images/npkbalanced.png';
+import tsp from '../../images/udana/fertilizer images/tsp.png';
+import mop from '../../images/udana/fertilizer images/mop.png';
+import algae from '../../images/udana/fertilizer images/algae.png';
+import recovery from '../../images/udana/fertilizer images/recovery.png';
+import xfert from '../../images/udana/fertilizer images/xfert.png';
+import dolomite from '../../images/udana/fertilizer images/dolomite.png';
+import Pdfgen from '../../Component/udana/pdfgenerator'
 
 const ShopAnalysis = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
