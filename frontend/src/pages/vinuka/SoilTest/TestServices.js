@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import { Box, Typography, Grid } from '@mui/material';
 import ButtonBase from '@mui/material/ButtonBase';
 import { Link } from 'react-router-dom';
-import Sidebar from '../../../Component/Thisaravi/Sidebar';
+import Sidebar from '../../../Component/vinuka/Sidebar';
 
 const images = [
   {

@@ -1,6 +1,6 @@
 import React from 'react';
-import FarmerProfile from '../../Component/Thisaravi/FarmerProfile';
-import Sidebar from '../../Component/Thisaravi/Sidebar';
+import FarmerProfile from '../../Component/vinuka/FarmerProfile';
+import Sidebar from '../../Component/vinuka/Sidebar';
 import { useParams } from 'react-router-dom';
 
 const Profile = () => {

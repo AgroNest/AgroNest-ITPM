@@ -7,75 +7,75 @@ import LoginType from '../pages/common/LoginType';
 import SignupType from '../pages/common/SignUpType';
 import ProfType from '../pages/common/ProfileType';
 //Sudarshan
-import DealerProf from '../pages/Sudarshan/DealerProf';
-import LoginPage from '../pages/Sudarshan/DealerLogin';
-import SignupPage from '../pages/Sudarshan/DealerSignUp';
-import EditProfile from '../pages/Sudarshan/editProf';
-import ManageShop from '../pages/Sudarshan/ManageShop';
-import Orders from '../pages/Sudarshan/Orders';
-import ShopAnalysis from '../pages/Sudarshan/Analysis';
+import DealerProf from '../pages/udana/DealerProf';
+import LoginPage from '../pages/udana/DealerLogin';
+import SignupPage from '../pages/udana/DealerSignUp';
+import EditProfile from '../pages/udana/editProf';
+import ManageShop from '../pages/udana/ManageShop';
+import Orders from '../pages/udana/Orders';
+import ShopAnalysis from '../pages/udana/Analysis';
 //Veenath
-import InquiryCategory from '../pages/Veenath/InquiryPages/inquiryCategory';
-import FormPage from '../pages/Veenath/InquiryPages/formPage';
-import FarmerInquiry from '../pages/Veenath/InquiryPages/farmerInquiry';
-import DealerInquiry from '../pages/Veenath/InquiryPages/dealerInquiry';
-import FeedbackForm from '../pages/Veenath/FeedbackPages/FeedbackForm';
-import PastFeedbackList from '../pages/Veenath/FeedbackPages/PastFeedbackList';
-import FeedbackCardView from '../pages/Veenath/FeedbackPages/FeedbackCardView';
-import DealerRating from '../pages/Veenath/FeedbackPages/DealerRating';
+import InquiryCategory from '../pages/thamuditha/InquiryPages/inquiryCategory';
+import FormPage from '../pages/thamuditha/InquiryPages/formPage';
+import FarmerInquiry from '../pages/thamuditha/InquiryPages/farmerInquiry';
+import DealerInquiry from '../pages/thamuditha/InquiryPages/dealerInquiry';
+import FeedbackForm from '../pages/thamuditha/FeedbackPages/FeedbackForm';
+import PastFeedbackList from '../pages/thamuditha/FeedbackPages/PastFeedbackList';
+import FeedbackCardView from '../pages/thamuditha/FeedbackPages/FeedbackCardView';
+import DealerRating from '../pages/thamuditha/FeedbackPages/DealerRating';
 //Oshini
-import LabSignUp from '../pages/Oshini/signup';
-import LabLogin from '../pages/Oshini/labLogin'
-import LabDash from '../pages/Oshini/labDash';
-import LabProfile from '../pages/Oshini/labProfile';
-import LabEdit from '../pages/Oshini/labEdit';
-import TestAccept from '../pages/Oshini/accepted';
-import TestComplete from '../pages/Oshini/completed';
-import FileUpload from '../pages/Oshini/uploadFile';
+import LabSignUp from '../pages/vinuka/signup';
+import LabLogin from '../pages/vinuka/labLogin'
+import LabDash from '../pages/vinuka/labDash';
+import LabProfile from '../pages/vinuka/labProfile';
+import LabEdit from '../pages/vinuka/labEdit';
+import TestAccept from '../pages/vinuka/accepted';
+import TestComplete from '../pages/vinuka/completed';
+import FileUpload from '../pages/vinuka/uploadFile';
 //Lasindu
-import ItemView from '../Component/Lasindu/ItemView';
-import OrderHistoryPage from '../Component/Lasindu/orderHistory';
-import UpdateOrderDialog from '../Component/Lasindu/orderUpdate';
-import ItemList from '../Component/Lasindu/Itemlist';
+import ItemView from '../Component/udana/ItemView';
+import OrderHistoryPage from '../Component/udana/orderHistory';
+import UpdateOrderDialog from '../Component/udana/orderUpdate';
+import ItemList from '../Component/udana/Itemlist';
 //Thisaravi
-import RegisterForm from '../pages/Thisaravi/RegisterForm';
-import Profile from '../pages/Thisaravi/Profile';
-import FarmerProfile from '../Component/Thisaravi/FarmerProfile';
-import Sidebar from '../Component/Thisaravi/Sidebar';
-import SoilTestRequest from '../pages/Thisaravi/SoilTest/SoilTestRequest';
-import TestServices from '../pages/Thisaravi/SoilTest/TestServices';
-import ViewRequests from '../pages/Thisaravi/SoilTest/ViewRequests';
-import RequestDetails from '../pages/Thisaravi/SoilTest/RequestDetails';
-import UpdateRequest from '../pages/Thisaravi/SoilTest/UpdateRequest';
-import Login from '../pages/Thisaravi/Login';
-import TestType from '../pages/Thisaravi/SoilTest/TestType';
-import ViewResolvedRequests from '../pages/Thisaravi/SoilTest/ViewResolvedRequests';
-import UpdateProfile from '../pages/Thisaravi/UpdateProfile';
+import RegisterForm from '../pages/vinuka/RegisterForm';
+import Profile from '../pages/vinuka/Profile';
+import FarmerProfile from '../Component/vinuka/FarmerProfile';
+import Sidebar from '../Component/vinuka/Sidebar';
+import SoilTestRequest from '../pages/vinuka/SoilTest/SoilTestRequest';
+import TestServices from '../pages/vinuka/SoilTest/TestServices';
+import ViewRequests from '../pages/vinuka/SoilTest/ViewRequests';
+import RequestDetails from '../pages/vinuka/SoilTest/RequestDetails';
+import UpdateRequest from '../pages/vinuka/SoilTest/UpdateRequest';
+import Login from '../pages/vinuka/Login';
+import TestType from '../pages/vinuka/SoilTest/TestType';
+import ViewResolvedRequests from '../pages/vinuka/SoilTest/ViewResolvedRequests';
+import UpdateProfile from '../pages/vinuka/UpdateProfile';
 //Nilupul
-import ArticleList from '../pages/Nilupul/ArticleList';
-import ArticleForm from '../pages/Nilupul/ArticleForm';
-import Form from '../pages/Nilupul/Form';
-import DataTable from '../pages/Nilupul/DataTable';
-import GmailButton from '../pages/Nilupul/GmailButton';
+import ArticleList from '../pages/kande/ArticleList';
+import ArticleForm from '../pages/kande/ArticleForm';
+import Form from '../pages/kande/Form';
+import DataTable from '../pages/kande/DataTable';
+import GmailButton from '../pages/kande/GmailButton';
 //Rahul
-import DealerList from '../Component/Rahul/DealerList';
-import FarmerList from '../Component/Rahul/FarmerList';
-import LabCards from '../Component/Rahul/LabCard';
-import FullWidthTabs from '../Component/Rahul/FullWidthTabs';
-import AdminLogin from '../Component/Rahul/AdminLogin';
-import AdminDashboard from '../pages/Rahul/AdminDashboard';
+import DealerList from '../Component/thamuditha/DealerList';
+import FarmerList from '../Component/thamuditha/FarmerList';
+import LabCards from '../Component/thamuditha/LabCard';
+import FullWidthTabs from '../Component/thamuditha/FullWidthTabs';
+import AdminLogin from '../Component/thamuditha/AdminLogin';
+import AdminDashboard from '../pages/thamuditha/AdminDashboard';
 //Kande
-import TopFertilizer from  '../pages/Kande/TopfertilizerScreen';
-import AddTopAreas from '../pages/Kande/TopAreaScreen';
-import SysManagerDashboard from '../pages/Kande/SysManagerDashboard';
-import ViewTopFertilizer from '../pages/Kande/ViewTopFertilizer';
-import MLogin from '../Component/Kande/login/MLogin';
-import TopArea from '../pages/Kande/TopAreaScreen';
-import AddTopfertilizer from'../Component/Kande/AddTopSelling'
-import ViewTopSellers from '../pages/Kande/ViewTopSelling';
-import  ViewTopRegisterdArea from'../pages/Kande/ViewTopAreas'
-import AddAdminForm from '../Component/Kande/FormCntainer/Form'
-import ViewAdmin from '../Component/Kande/ViewAdmins'
+import TopFertilizer from  '../pages/kande/TopfertilizerScreen';
+import AddTopAreas from '../pages/kande/TopAreaScreen';
+import SysManagerDashboard from '../pages/kande/SysManagerDashboard';
+import ViewTopFertilizer from '../pages/kande/ViewTopFertilizer';
+import MLogin from '../Component/kande/login/MLogin';
+import TopArea from '../pages/kande/TopAreaScreen';
+import AddTopfertilizer from'../Component/kande/AddTopSelling'
+import ViewTopSellers from '../pages/kande/ViewTopSelling';
+import  ViewTopRegisterdArea from'../pages/kande/ViewTopAreas'
+import AddAdminForm from '../Component/kande/FormCntainer/Form'
+import ViewAdmin from '../Component/kande/ViewAdmins'
 
 const Router = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

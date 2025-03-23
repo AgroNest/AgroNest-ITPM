@@ -1,5 +1,5 @@
 import React from 'react';
-import RegForm from '../../Component/Thisaravi/RegForm';
+import RegForm from '../../Component/vinuka/RegForm';
 
 const Registerpage = () => {
   return (
