@@ -6,7 +6,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { PDFDownloadLink, Document, Page, View, Text, StyleSheet , Image} from "@react-pdf/renderer";
 import Swal from 'sweetalert2';
 import agronestLogo from '../../images/common/agronestlogo.jpg';
-//import Dealer from "../../../../BACKEND/models/Sudarshan/dealer_acc_mgmt/dealer";
+//import Dealer from "../../../../BACKEND/models/udana/dealer_acc_mgmt/dealer";
 
 
 

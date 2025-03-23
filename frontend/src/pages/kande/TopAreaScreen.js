@@ -1,7 +1,7 @@
 import React from 'react';
-import AddTopAreas from '../../Component/Kande/AddTopAreas';
+import AddTopAreas from '../../Component/kande/AddTopAreas';
 import backgroundImage from '../../images/common/background.avif';
-import '../../styles/Sudarshan/dealer_profile.css';
+import '../../styles/udana/dealer_profile.css';
 
 const TopAreas = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import AddTopfertilizer from '../../Component/Kande/AddTopfertilizer';
 import backgroundImage from '../../images/common/background.avif'; 
-import '../../styles/Sudarshan/dealer_profile.css';
+import '../../styles/udana/dealer_profile.css';
 
 const Topfertilizer = () => {
   return (

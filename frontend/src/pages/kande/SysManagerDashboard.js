@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import TopSellerChart from "../../pages/Kande/TopSellerChart";
-import FertilizerAnalysisChart from "../../pages/Kande/TopFertilizerChart.js";
-import TopAreasChart from "../../pages/Kande/TopAreaChart.js";
+import TopSellerChart from "../../pages/kande/TopSellerChart";
+import FertilizerAnalysisChart from "../../pages/kande/TopFertilizerChart.js";
+import TopAreasChart from "../../pages/kande/TopAreaChart.js";
 import Sidebar from "./Sidebar/Sidebar.js"
 
 
