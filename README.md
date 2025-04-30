@@ -1,1 +1,1 @@
-We built this web application to support farmers and agricultural communities by streamlining the management of farming activities. The system allows users to monitor crop progress, manage inventory, and receive timely updates on weather and market prices.
+We built this web application to support farmers and agricultural communities by streamlining the management of farming activities. The system allows users to monitor crop progress, manage inventory, and receive timely updates on weather and market prices. It also includes a forum where users can share their experiences,
