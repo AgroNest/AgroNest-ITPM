@@ -1,6 +1,6 @@
 # 🌾 AgroNest - Fertilizer Management & Soil Testing Platform
 
-AgroNest is a modern web-based platform designed to enhance the agricultural supply chain in Sri Lanka by connecting farmers, fertilizer dealers, laboratories, and administrators under one unified system. 
+AgroNest is a modern web-based platform designed to enhance the agricultural supply chain in Sri Lanka by connecting farmers, fertilizer dealers, laboratories, and administrators under one unified system. Built using the MERN stack and powered by MUI for UI design, 
 
 
 ## 📦 Tech Stack
