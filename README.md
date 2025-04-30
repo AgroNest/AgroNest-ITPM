@@ -1,1 +1,1 @@
-# AgroNest-2.0-ITPM
+We built this web application to support farmers and agricultural communities by streamlining the management of farming activities. The system allows users to monitor crop progress, manage inventory, 
