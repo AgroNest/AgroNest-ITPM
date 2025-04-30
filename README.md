@@ -2,13 +2,7 @@
 
 AgroNest is a modern web-based platform designed to enhance the agricultural supply chain in Sri Lanka by connecting farmers, fertilizer dealers, laboratories, and administrators under one unified system. Built using the MERN stack and powered by MUI for UI design, the platform provides seamless fertilizer ordering, soil testing, dealer shop management, feedback systems, and more.
 
----
 
-## 🔗 Live URL (if deployed)
-
-> [Link to hosted app](#) *(Add your frontend/backend deployment link here if available)*
-
----
 
 ## 📦 Tech Stack
 
