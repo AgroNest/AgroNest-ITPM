@@ -44,5 +44,5 @@ AgroNest is a modern web-based platform designed to enhance the agricultural sup
 - Farmers & Dealers can raise tickets
 - Admins can respond to and resolve support tickets
 
-- -
+  
 
