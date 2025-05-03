@@ -92,7 +92,7 @@ const ArticleForm = () => {
             color: '#196F3D',
             textAlign: 'left', 
             fontFamily: 'unset', 
-            letterSpacing: '1px'
+            letterSpacing: '2px'
           }}
         >
           Add New Article
