@@ -40,7 +40,7 @@ AgroNest is a modern web-based platform designed to enhance the agricultural sup
 - Create/edit/delete agriculture-related articles
 - View system-wide analytics and charts (Top fertilizers, orders, regions)
 
-### 📞 Help Desk (Support System)
+### 📞 Administrator (Support System)
 - Farmers & Dealers can raise tickets
 - Admins can respond to and resolve support tickets
 
